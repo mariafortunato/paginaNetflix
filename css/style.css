@@ -1,0 +1,105 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*Basico*/
+body{
+    background-color: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 5px;
+}
+header nav a{
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: rgb(143, 143, 143);
+}
+/*Filme principal*/
+.filmePrincipal{
+    font-size: 16px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,.70),  rgba(0,0,0,.70)100%), url('imagens/brooklynP.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filmePrincipal .descricao{
+   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao{
+    background-color: rgb(250, 250, 250);
+    border:none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: rgba(255, 255, 255, 0.712);
+    color: black;
+}
+.botao i{
+    margin-right: 5px;
+}
+.botao:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.315);
+    color: white;
+}
+.botao:nth-child(2):hover{
+    background-color: rgba(255, 255, 255, 0.171);
+}
+.container{
+    margin-left: 20px;
+}
+.filmePrincipal .container{
+    width: 70%;
+}
+.boxFilme{
+    height: 100%;
+    width: 400%;
+    display: block;
+}
+.carroselFilmes{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.carroselFilmes .subtitulos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 0.4%;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css/imagens/netflix.png" type="image/x-icon">
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <!--owl css  -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETIFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filmePrincipal">
+            <div class="container">
+                <h3 class="titulo">BROOKLYN NINE-NINE</h3>
+                <p class="descricao"> A série gira em torno de Jake Peralta, um imaturo, mas talentoso, detetive da polícia de Nova York na fictícia 99.</p>
+            
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="assistir()">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                    <button role="button" class="botao" onclick="infoPrincipal()">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>  
+            </div>
+        </div>
+      
+    </main>
+    <div class="carroselFilmes">
+        <h2 class="subtitulos">Minha lista</h2>
+        <div class="owl-carousel wol-theme">
+            <div class="item">
+                <img src="css/imagens/friends.jpg" alt="FRIENDS" title="FRIENDS" class="boxFilme" >  
+            </div>
+            <div class="item">
+                <img src="css/imagens/blindspot.jpg" alt="Ponto cego" title="Ponto cego" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/brooklyn.jpeg" alt="Brookly nine-nine" title="Brooklyn nine-nine" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/chesapeak.jpg" alt="Chesapeak Shores" title="Chesapeak Shores" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/enola.jpg" alt="Enola Homes" title="Enola Homes" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/heart.jpg" alt="When calls the heart"  title="When calls the heart" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/lucifer.jpg" alt="Lucifer" title="Lucifer" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/shadow.jpg" alt="Shadow Hunters" title="Shadow Hunters" class="boxFilme">
+            </div>     
+            
+        </div>
+        <h2 class="subtitulos">Continuar assitindo como Maria</h2>
+        <div class="owl-carousel wol-theme">
+            <div class="item">
+                <img src="css/imagens/defenderAssassino.jpg" alt="Como defender um assassino" title="Como defender um assassino" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/arrow.jpg" alt="Arqueiro verde" title="Arqueiro verde" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/listaNegra.jpg" alt="A lista negra" title="A lista negra" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/riverdale.jpg" alt="Riverdale" title="Riverdale" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/lendasAmanha.jpg" alt="Lendas do amanhã" title="Lendas do amanhã" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/goodGirls.jpg" alt="Good girls" title="Good girls" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/paradisePolice.jpg" alt="Paradise police" title="Paradise police" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/docesMagnolia.jpg" alt="Doces magnólias" title="Doces magnólias" class="boxFilme">
+            </div>     
+            
+        </div>
+        <h2 class="subtitulos">Lançamentos</h2>
+        <div class="owl-carousel wol-theme">
+            <div class="item">
+                <img src="css/imagens/atypical.jpg" alt="Atypical" title="Atypical" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/ranch.jpg" alt="The ranch" title="The ranch" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/santaClarita.jpg" alt="Santa Clarita Diet" title="Santa Clarita Diet" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/theFlash.jpg" alt="The flash" title="The flash" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/zumbo.jpg" alt="Zumbo" title="Zumbo" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/grace.jpg" alt="Grace and Frankie" title="Grace and Frankie" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/supergirl.jpg" alt="Supergirl" title="Supergirl" class="boxFilme">
+            </div>
+            <div class="item">
+                <img src="css/imagens/frontier.jpg" alt="Frontier" title="Frontier" class="boxFilme">
+            </div>     
+            
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e0f6140325.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/owl/main.js"></script>
+</body>
+</html>
